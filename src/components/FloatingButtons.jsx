@@ -43,7 +43,7 @@ const FloatingButtons = () => {
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 }}
-                href="tel:+919876543210"
+                href="tel:+917579171111"
                 className="w-14 h-14 bg-primary-600 text-white rounded-full shadow-lg flex items-center justify-center hover:bg-primary-700 hover:-translate-y-1 transition-all md:hidden border-2 border-white"
                 aria-label="Call Now"
             >
@@ -55,7 +55,7 @@ const FloatingButtons = () => {
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.1 }}
-                href="https://wa.me/919876543210"
+                href="https://wa.me/917579171111"
                 target="_blank"
                 rel="noreferrer"
                 className="w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg flex items-center justify-center hover:bg-[#20bd5a] hover:-translate-y-1 transition-all border-2 border-white relative group"

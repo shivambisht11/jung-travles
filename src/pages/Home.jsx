@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/home/Hero';
+import PopularPackages from '../components/home/PopularPackages';
 import ServicesSection from '../components/home/ServicesSection';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import ContactHighlight from '../components/home/ContactHighlight';
@@ -16,6 +17,7 @@ const Home = () => {
             className="w-full overflow-hidden"
         >
             <Hero />
+            <PopularPackages />
             <ServicesSection />
             <WhyChooseUs />
             <ContactHighlight />

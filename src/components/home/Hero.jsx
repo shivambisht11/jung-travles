@@ -65,7 +65,7 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
                     >
                         <a
-                            href="tel:+919876543210"
+                            href="tel:+917579171111"
                             className="flex items-center justify-center bg-gradient-to-r from-primary-600 to-primary-500 hover:from-primary-500 hover:to-primary-400 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:-translate-y-1"
                         >
                             <Phone className="mr-2" size={20} />
@@ -73,7 +73,7 @@ const Hero = () => {
                         </a>
 
                         <a
-                            href="https://wa.me/919876543210"
+                            href="https://wa.me/917579171111"
                             target="_blank"
                             rel="noreferrer"
                             className="flex items-center justify-center bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-lg shadow-[#25D366]/30 hover:shadow-[#25D366]/50 hover:-translate-y-1"

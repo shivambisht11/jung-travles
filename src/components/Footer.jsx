@@ -49,10 +49,10 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center">
                                 <Phone className="text-primary-500 mr-3 shrink-0" size={20} />
-                                <a href="tel:+919876543210" className="hover:text-primary-400 transition-colors">+91 98765 43210</a>
+                                <a href="tel:+917579171111" className="hover:text-primary-400 transition-colors">+91 7579171111</a>
                             </li>
                             <li className="flex items-center">
-                                <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" className="flex items-center hover:text-green-400 transition-colors">
+                                <a href="https://wa.me/917579171111" target="_blank" rel="noreferrer" className="flex items-center hover:text-green-400 transition-colors">
                                     <FaWhatsapp className="text-primary-500 mr-3 shrink-0 text-xl group-hover:text-green-500" />
                                     <span>Chat on WhatsApp</span>
                                 </a>

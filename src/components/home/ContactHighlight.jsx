@@ -69,7 +69,7 @@ const ContactHighlight = () => {
                         {/* CTAs */}
                         <div className="flex flex-col space-y-6">
                             <motion.a
-                                href="tel:+919876543210"
+                                href="tel:+917579171111"
                                 initial={{ opacity: 0, x: 50 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
@@ -82,12 +82,12 @@ const ContactHighlight = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Call Booking Direct</p>
-                                    <p className="text-3xl md:text-4xl font-extrabold text-gray-900">+91 98765 43210</p>
+                                    <p className="text-3xl md:text-4xl font-extrabold text-gray-900">+91 75791 71111</p>
                                 </div>
                             </motion.a>
 
                             <motion.a
-                                href="https://wa.me/919876543210"
+                                href="https://wa.me/917579171111"
                                 target="_blank"
                                 rel="noreferrer"
                                 initial={{ opacity: 0, x: 50 }}

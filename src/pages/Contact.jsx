@@ -75,7 +75,7 @@ const Contact = () => {
                     {/* Contact Info Cards */}
                     <div className="lg:col-span-1 space-y-6">
                         <motion.a
-                            href="tel:+919876543210"
+                            href="tel:+917579171111"
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100 flex flex-col items-center text-center group hover:-translate-y-2 transition-transform duration-300 block"
@@ -84,11 +84,11 @@ const Contact = () => {
                                 <Phone className="text-primary-600 group-hover:text-white transition-colors" size={32} />
                             </div>
                             <h3 className="text-gray-500 font-semibold uppercase tracking-wider text-sm mb-2">Call Us 24/7</h3>
-                            <p className="text-3xl font-bold text-gray-900">+91 98765 43210</p>
+                            <p className="text-3xl font-bold text-gray-900">+91 75791 71111</p>
                         </motion.a>
 
                         <motion.a
-                            href="https://wa.me/919876543210"
+                            href="https://wa.me/917579171111"
                             target="_blank"
                             rel="noreferrer"
                             initial={{ opacity: 0, y: 30 }}

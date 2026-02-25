@@ -96,14 +96,14 @@ const Services = () => {
 
                                 <div className="flex flex-wrap gap-4 pt-4">
                                     <a
-                                        href="tel:+919876543210"
+                                        href="tel:+917579171111"
                                         className="flex items-center bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-xl font-medium transition-colors cursor-pointer"
                                     >
                                         <Phone className="mr-2" size={18} />
                                         Call Booking
                                     </a>
                                     <a
-                                        href="https://wa.me/919876543210"
+                                        href="https://wa.me/917579171111"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="flex items-center border border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white px-6 py-3 rounded-xl font-medium transition-colors cursor-pointer"

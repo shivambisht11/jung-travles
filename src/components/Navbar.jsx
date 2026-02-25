@@ -37,7 +37,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-6">
                         <div className="flex items-center space-x-2">
                             <Phone size={14} className="text-secondary-400" />
-                            <span>+91 98765 43210</span>
+                            <span>+91 75791 71111</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <MapPin size={14} className="text-secondary-400" />
@@ -53,8 +53,8 @@ const Navbar = () => {
             {/* Main Navbar */}
             <nav
                 className={`fixed w-full z-50 transition-all duration-300 ${scrolled
-                        ? 'bg-white/90 backdrop-blur-md shadow-md py-3'
-                        : 'bg-white py-4 md:py-5'
+                    ? 'bg-white/90 backdrop-blur-md shadow-md py-3'
+                    : 'bg-white py-4 md:py-5'
                     } ${scrolled ? 'top-0' : 'top-0 md:top-[36px]'}`}
             >
                 <div className="container mx-auto px-4 flex justify-between items-center">
@@ -115,9 +115,9 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <div className="pt-8 flex flex-col items-center space-y-4">
-                                <a href="tel:+919876543210" className="flex items-center space-x-2 text-xl font-bold text-gray-800">
+                                <a href="tel:+917579171111" className="flex items-center space-x-2 text-xl font-bold text-gray-800">
                                     <Phone className="text-primary-600" />
-                                    <span>+91 98765 43210</span>
+                                    <span>+91 75791 71111</span>
                                 </a>
                                 <Link
                                     to="/contact"
