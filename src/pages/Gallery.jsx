@@ -8,10 +8,10 @@ const images = [
     { id: 3, src: '/images/fleet/vehicle-3.jpg', alt: 'Fleet Vehicle - Swift Dzire Night' },
     { id: 4, src: '/images/fleet/vehicle-4.jpg', alt: 'Fleet Vehicle - Tempo Traveller' },
     { id: 5, src: '/images/fleet/vehicle-5.jpg', alt: 'Fleet Vehicle - Swift Dzire White' },
-    { id: 6, src: 'https://images.unsplash.com/photo-1549317661-bc61c8e1c614?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Roads' },
-    { id: 7, src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Himalayan Temple' },
-    { id: 8, src: 'https://images.unsplash.com/photo-1544254415-f6c6d0ccdc74?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Scenic Valley' },
-    { id: 9, src: 'https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Range' },
+    { id: 6, src: '/images/fleet/vehicle-6.jpg', alt: 'Fleet Vehicle - Swift Dzire Daylight' },
+    { id: 7, src: '/images/fleet/vehicle-7.jpg', alt: 'Fleet Vehicle - Swift Dzire City' },
+    { id: 8, src: '/images/fleet/vehicle-8.jpg', alt: 'Fleet Vehicle - Swift Dzire Night Luggage' },
+    { id: 9, src: 'https://images.unsplash.com/photo-1544254415-f6c6d0ccdc74?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Scenic Valley' },
 ];
 
 const Gallery = () => {

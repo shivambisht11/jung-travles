@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
             <div className="container mx-auto px-4">
 
                 <div className="flex flex-col lg:flex-row items-center gap-16">
-                    {/* Image Side */}
+                    {/* Image Grid Side */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -39,22 +39,40 @@ const WhyChooseUs = () => {
                         transition={{ duration: 0.6 }}
                         className="lg:w-1/2 relative"
                     >
-                        <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-                            <img
-                                src="/images/fleet/vehicle-1.jpg"
-                                alt="Mountain Taxi"
-                                className="w-full h-[600px] object-cover"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent"></div>
-
-                            <div className="absolute bottom-8 left-8 right-8">
-                                <div className="bg-gray-900/75 backdrop-blur-md rounded-xl p-6 border border-gray-700/50 shadow-2xl">
-                                    <p className="text-2xl font-bold mb-1 text-white">10+ Years</p>
-                                    <p className="text-gray-300">Of Excellence in Travel</p>
-                                </div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="grid grid-rows-2 gap-4">
+                                <img
+                                    src="/images/fleet/vehicle-1.jpg"
+                                    alt="Fleet Vehicle"
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                />
+                                <img
+                                    src="/images/fleet/vehicle-7.jpg"
+                                    alt="Fleet Vehicle"
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                />
                             </div>
+                            <div className="grid grid-rows-2 gap-4 pt-8">
+                                <img
+                                    src="/images/fleet/vehicle-4.jpg"
+                                    alt="Force Traveller"
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                />
+                                <img
+                                    src="/images/fleet/vehicle-6.jpg"
+                                    alt="Fleet Vehicle"
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 md:-bottom-12 md:left-8 md:translate-x-0 bg-gray-900/85 backdrop-blur-md rounded-2xl p-6 border border-gray-700/50 shadow-2xl z-10 w-4/5 md:w-auto text-center md:text-left">
+                            <p className="text-3xl font-black mb-1 text-white">8+ Vehicles</p>
+                            <p className="text-primary-300 font-semibold tracking-wide">Premium Fleet Collection</p>
                         </div>
 
                         {/* Decorative blobs */}
