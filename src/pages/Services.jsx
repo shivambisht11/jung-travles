@@ -8,7 +8,7 @@ const servicesList = [
         id: 1,
         title: 'Local Taxi in Pithoragarh',
         description: 'Quick, reliable, and safe transportation for your daily commutes, shopping trips, or visiting local attractions like Chandak, Mostamanu, or Thal Kedar. Our drivers know the town inside out.',
-        image: 'https://images.unsplash.com/photo-1549317661-bc61c8e1c614?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1464039397811-476f6b539bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     },
     {
         id: 2,

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 
 const images = [
-    { id: 1, src: 'https://images.unsplash.com/photo-1549317661-bc61c8e1c614?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Taxi' },
+    { id: 1, src: 'https://images.unsplash.com/photo-1464039397811-476f6b539bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Taxi' },
     { id: 2, src: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Highway Drive' },
     { id: 3, src: 'https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Scenic Route' },
     { id: 4, src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Temple Visit' },

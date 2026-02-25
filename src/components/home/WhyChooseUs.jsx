@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
                     >
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1549317661-bc61c8e1c614?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                src="https://images.unsplash.com/photo-1464039397811-476f6b539bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                                 alt="Mountain Taxi"
                                 className="w-full h-[600px] object-cover"
                                 loading="lazy"
