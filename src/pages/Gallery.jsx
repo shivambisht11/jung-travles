@@ -3,15 +3,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 
 const images = [
-    { id: 1, src: 'https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Taxi' },
-    { id: 2, src: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Highway Drive' },
-    { id: 3, src: 'https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Scenic Route' },
-    { id: 4, src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Temple Visit' },
-    { id: 5, src: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Tour Overview' },
-    { id: 6, src: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Night Drive' },
-    { id: 7, src: 'https://images.unsplash.com/photo-1464039397811-476f6b539bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Winter Taxi' },
-    { id: 8, src: 'https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Snow Drive' },
-    { id: 9, src: 'https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Hilly Area' },
+    { id: 1, src: '/images/fleet/vehicle-1.jpg', alt: 'Fleet Vehicle - Swift Dzire Front' },
+    { id: 2, src: '/images/fleet/vehicle-2.jpg', alt: 'Fleet Vehicle - Swift Dzire Grille' },
+    { id: 3, src: '/images/fleet/vehicle-3.jpg', alt: 'Fleet Vehicle - Swift Dzire Night' },
+    { id: 4, src: '/images/fleet/vehicle-4.jpg', alt: 'Fleet Vehicle - Tempo Traveller' },
+    { id: 5, src: '/images/fleet/vehicle-5.jpg', alt: 'Fleet Vehicle - Swift Dzire White' },
+    { id: 6, src: 'https://images.unsplash.com/photo-1549317661-bc61c8e1c614?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Roads' },
+    { id: 7, src: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Himalayan Temple' },
+    { id: 8, src: 'https://images.unsplash.com/photo-1544254415-f6c6d0ccdc74?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Scenic Valley' },
+    { id: 9, src: 'https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Mountain Range' },
 ];
 
 const Gallery = () => {

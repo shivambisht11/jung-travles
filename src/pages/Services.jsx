@@ -26,7 +26,7 @@ const servicesList = [
         id: 4,
         title: 'Custom Kumaon & Garhwal Tours',
         description: 'Explore the hidden gems of Uttarakhand. We help you plan and execute customized itineraries covering destinations like Munsiyari, Chaukori, Nainital, Almora, and Auli.',
-        image: 'https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        image: "/images/fleet/vehicle-3.jpg",
     }
 ];
 
