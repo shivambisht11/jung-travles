@@ -146,7 +146,7 @@ const PopularPackages = () => {
                                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent"></div>
                                 <button
                                     onClick={() => setSelectedPackage(null)}
-                                    className="absolute top-4 right-4 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-2 rounded-full transition-colors"
+                                    className="absolute top-4 right-4 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-2 rounded-full transition-colors z-10"
                                 >
                                     <X size={24} />
                                 </button>
