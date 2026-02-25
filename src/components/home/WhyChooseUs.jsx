@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
                     >
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1464039397811-476f6b539bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                src="https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                                 alt="Mountain Taxi"
                                 className="w-full h-[600px] object-cover"
                                 loading="lazy"
@@ -50,9 +50,9 @@ const WhyChooseUs = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent"></div>
 
                             <div className="absolute bottom-8 left-8 right-8">
-                                <div className="glass rounded-xl p-6 text-white border-white/20">
-                                    <p className="text-2xl font-bold mb-1">10+ Years</p>
-                                    <p className="text-white/80">Of Excellence in Travel</p>
+                                <div className="bg-gray-900/75 backdrop-blur-md rounded-xl p-6 border border-gray-700/50 shadow-2xl">
+                                    <p className="text-2xl font-bold mb-1 text-white">10+ Years</p>
+                                    <p className="text-gray-300">Of Excellence in Travel</p>
                                 </div>
                             </div>
                         </div>
