@@ -196,6 +196,26 @@ const PopularPackages = () => {
                                                 ))}
                                             </div>
                                         </div>
+
+                                        {/* Extra Gallery Photos */}
+                                        {selectedPackage.gallery && selectedPackage.gallery.length > 0 && (
+                                            <div className="pt-8 border-t border-gray-200">
+                                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                                    More Tour Photos
+                                                </h3>
+                                                <div className={`grid grid-cols-1 sm:grid-cols-${Math.min(2, selectedPackage.gallery.length)} gap-4`}>
+                                                    {selectedPackage.gallery.map((img, idx) => (
+                                                        <img
+                                                            key={idx}
+                                                            src={img}
+                                                            alt={`${selectedPackage.title} tour photo ${idx + 1}`}
+                                                            className="w-full h-48 sm:h-56 object-cover rounded-2xl shadow-sm hover:scale-[1.02] transition-transform duration-300"
+                                                            loading="lazy"
+                                                        />
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
 
                                     {/* Right Content - Info & Booking */}

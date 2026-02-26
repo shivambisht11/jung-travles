@@ -6,7 +6,8 @@ export const packagesData = [
         price: "₹28,000",
         priceDetails: "Per Person (Bolero, Isuzu, Scorpio N 4*4)",
         route: "Haldwani - Pithoragarh - Gunji - Adi Kailash - Om Parvat - Panchachuli Base Camp - Haldwani",
-        image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        image: "/images/packages/mountain-1.jpg",
+        gallery: ["/images/packages/mountain-6.jpg", "/images/packages/mountain-7.jpg"],
         rating: 5,
         inclusions: [
             "Transportation (Bolero, Scorpio N, Isuzu)",
@@ -65,7 +66,8 @@ export const packagesData = [
         price: "From ₹22,000",
         priceDetails: "Bolero: ₹22,000 | Scorpio N: ₹30,000 | Isuzu: ₹35,000",
         route: "Tanakpur - Pithoragarh - Gunji - Adi Kailash - Om Parvat - Panchachuli - Tanakpur",
-        image: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        image: "/images/packages/mountain-2.jpg",
+        gallery: ["/images/packages/mountain-8.jpg"],
         rating: 4.8,
         inclusions: [
             "Transportation (Bolero/Scorpio/Isuzu)",
@@ -123,7 +125,8 @@ export const packagesData = [
         price: "₹17,500",
         priceDetails: "Per Person (Bolero / Scorpio / ISUZU)",
         route: "Pithoragarh - Napalchu - Adi Kailash - Om Parvat - Pithoragarh",
-        image: "https://images.unsplash.com/photo-1549317661-bc61c8e1c614?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        image: "/images/packages/mountain-3.jpg",
+        gallery: ["/images/packages/mountain-9.jpg"],
         rating: 5,
         inclusions: [
             "Meals: Breakfast & Dinner",
@@ -165,7 +168,8 @@ export const packagesData = [
         price: "₹32,000 - ₹40,000",
         priceDetails: "Per Person (Depending on vehicle choice)",
         route: "Haridwar - Yamunotri - Gangotri - Kedarnath - Badrinath",
-        image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        image: "/images/packages/mountain-4.jpg",
+        gallery: [],
         rating: 4.9,
         inclusions: [
             "Homestay accommodation for authentic experience",
@@ -244,7 +248,8 @@ export const packagesData = [
         price: "₹32,500",
         priceDetails: "Per Person (Including meals & tea)",
         route: "Kathgodam - Chaukori - Dharchula - Panchachuli - Napalchu - Adi Kailash - Kathgodam",
-        image: "https://images.unsplash.com/photo-1544254415-f6c6d0ccdc74?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        image: "/images/packages/mountain-5.jpg",
+        gallery: [],
         rating: 5,
         inclusions: [
             "Transportation (ISUZU DMAX, SCORPIO N, BOLERO)",
