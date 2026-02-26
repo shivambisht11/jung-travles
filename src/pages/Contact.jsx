@@ -26,11 +26,12 @@ const Contact = () => {
 
     return (
         <motion.div
+            id="contact"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-gray-50 min-h-screen pb-20 relative"
+            className="bg-gray-50 pb-20 relative pt-10"
         >
             {/* Toast Notification */}
             <AnimatePresence>
@@ -114,8 +115,8 @@ const Contact = () => {
                             </div>
                             <h3 className="text-gray-500 font-semibold uppercase tracking-wider text-sm mb-2">Our Office</h3>
                             <p className="text-lg font-bold text-gray-900 leading-relaxed">
-                                Near Roadways Bus Stand,<br />
-                                Pithoragarh, Uttarakhand<br />
+                                KMOU bus station<br />
+                                pithoragarh Uttarakhand<br />
                                 262501
                             </p>
                         </motion.div>

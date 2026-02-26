@@ -5,6 +5,8 @@ import ServicesSection from '../components/home/ServicesSection';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import ContactHighlight from '../components/home/ContactHighlight';
 import Testimonials from '../components/home/Testimonials';
+import Gallery from '../pages/Gallery';
+import Contact from '../pages/Contact';
 import { motion } from 'framer-motion';
 
 const Home = () => {
@@ -20,8 +22,9 @@ const Home = () => {
             <PopularPackages />
             <ServicesSection />
             <WhyChooseUs />
-            <ContactHighlight />
+            <Gallery />
             <Testimonials />
+            <Contact />
         </motion.div>
     );
 };

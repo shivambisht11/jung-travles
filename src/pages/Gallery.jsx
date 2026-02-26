@@ -11,7 +11,15 @@ const images = [
     { id: 6, src: '/images/fleet/vehicle-6.jpg', alt: 'Fleet Vehicle - Swift Dzire Daylight' },
     { id: 7, src: '/images/fleet/vehicle-7.jpg', alt: 'Fleet Vehicle - Swift Dzire City' },
     { id: 8, src: '/images/fleet/vehicle-8.jpg', alt: 'Fleet Vehicle - Swift Dzire Night Luggage' },
-    { id: 9, src: 'https://images.unsplash.com/photo-1544254415-f6c6d0ccdc74?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Scenic Valley' },
+    { id: 9, src: '/images/packages/mountain-1.jpg', alt: 'Mountain Landscape' },
+    { id: 10, src: '/images/packages/mountain-2.jpg', alt: 'Mountain Landscape' },
+    { id: 11, src: '/images/packages/mountain-3.jpg', alt: 'Mountain Landscape' },
+    { id: 12, src: '/images/packages/mountain-4.jpg', alt: 'Mountain Landscape' },
+    { id: 13, src: '/images/packages/mountain-5.jpg', alt: 'Mountain Landscape' },
+    { id: 14, src: '/images/packages/mountain-6.jpg', alt: 'Mountain Landscape' },
+    { id: 15, src: '/images/packages/mountain-7.jpg', alt: 'Mountain Landscape' },
+    { id: 16, src: '/images/packages/mountain-8.jpg', alt: 'Mountain Landscape' },
+    { id: 17, src: '/images/packages/mountain-9.jpg', alt: 'Mountain Landscape' },
 ];
 
 const Gallery = () => {
@@ -31,27 +39,28 @@ const Gallery = () => {
 
     return (
         <motion.div
+            id="gallery"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-gray-50 min-h-screen pb-20"
+            className="bg-gray-50 pb-20 pt-10"
         >
             {/* Page Header */}
-            <div className="bg-primary-900 text-white py-20 relative overflow-hidden">
+            <div className="text-center pt-10 pb-4 relative overflow-hidden">
                 <div className="container mx-auto px-4 relative z-10 text-center">
-                    <motion.h1
+                    <motion.h2
                         initial={{ y: -20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        className="text-4xl md:text-5xl font-bold mb-4"
+                        className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-900"
                     >
-                        Our Fleet & Memories
-                    </motion.h1>
+                        Our Fleet & <span className="text-gradient">Memories</span>
+                    </motion.h2>
                     <motion.p
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 0.1 }}
-                        className="text-xl text-primary-100 max-w-2xl mx-auto"
+                        className="text-xl text-gray-600 max-w-2xl mx-auto"
                     >
                         A glimpse into our pristine vehicles and the breathtaking journeys we've undertaken.
                     </motion.p>

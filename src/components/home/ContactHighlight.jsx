@@ -62,7 +62,7 @@ const ContactHighlight = () => {
                                 <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center shrink-0">
                                     <MapPin className="text-primary-400" />
                                 </div>
-                                <p>Near Roadways Bus Stand, Pithoragarh, Uttarakhand</p>
+                                <p>KMOU bus station pithoragarh Uttarakhand 262501</p>
                             </motion.div>
                         </div>
 

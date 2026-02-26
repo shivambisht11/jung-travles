@@ -20,7 +20,7 @@ const PopularPackages = () => {
     }, [selectedPackage]);
 
     return (
-        <section className="py-24 bg-white relative overflow-hidden">
+        <section id="packages" className="py-24 bg-white relative overflow-hidden">
             {/* Background elements */}
             <div className="absolute top-0 right-0 w-1/3 h-1/2 bg-gradient-to-bl from-primary-50 to-transparent -z-10"></div>
 

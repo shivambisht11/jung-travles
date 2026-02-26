@@ -23,11 +23,26 @@ const Navbar = () => {
     }, [location.pathname]);
 
     const navLinks = [
-        { name: 'Home', path: '/' },
-        { name: 'Services', path: '/services' },
-        { name: 'Gallery', path: '/gallery' },
-        { name: 'Contact', path: '/contact' },
+        { name: 'Home', path: '#' },
+        { name: 'Packages', path: '#packages' },
+        { name: 'Services', path: '#services' },
+        { name: 'Gallery', path: '#gallery' },
+        { name: 'Contact', path: '#contact' },
     ];
+
+    const handleScrollTo = (e, path) => {
+        e.preventDefault();
+        setIsOpen(false);
+        if (path === '#') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+        }
+        const element = document.querySelector(path);
+        if (element) {
+            const y = element.getBoundingClientRect().top + window.scrollY - 80; // adjusted for sticky navbar
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
 
     return (
         <>
@@ -41,7 +56,7 @@ const Navbar = () => {
                         </div>
                         <div className="flex items-center space-x-2">
                             <MapPin size={14} className="text-secondary-400" />
-                            <span>Near Roadways Bus Stand, Pithoragarh, Uttarakhand</span>
+                            <span>KMOU bus station pithoragarh Uttarakhand 262501</span>
                         </div>
                     </div>
                     <div className="font-semibold text-secondary-400">
@@ -67,21 +82,22 @@ const Navbar = () => {
                     {/* Desktop Nav */}
                     <div className="hidden md:flex items-center space-x-8">
                         {navLinks.map((link) => (
-                            <Link
+                            <a
                                 key={link.name}
-                                to={link.path}
-                                className={`font-medium transition-colors hover:text-primary-600 ${location.pathname === link.path ? 'text-primary-600 border-b-2 border-primary-600' : 'text-gray-700'
-                                    }`}
+                                href={link.path}
+                                onClick={(e) => handleScrollTo(e, link.path)}
+                                className="font-medium text-gray-700 transition-colors hover:text-primary-600 cursor-pointer"
                             >
                                 {link.name}
-                            </Link>
+                            </a>
                         ))}
-                        <Link
-                            to="/contact"
-                            className="px-6 py-2.5 rounded-full bg-gradient-primary text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:-translate-y-0.5 transition-all duration-300"
+                        <a
+                            href="#contact"
+                            onClick={(e) => handleScrollTo(e, '#contact')}
+                            className="px-6 py-2.5 rounded-full bg-gradient-primary text-white font-medium shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
                         >
                             Book Now
-                        </Link>
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -105,26 +121,27 @@ const Navbar = () => {
                     >
                         <div className="flex flex-col space-y-6 text-center mt-10">
                             {navLinks.map((link) => (
-                                <Link
+                                <a
                                     key={link.name}
-                                    to={link.path}
-                                    className={`text-2xl font-semibold ${location.pathname === link.path ? 'text-primary-600' : 'text-gray-800'
-                                        }`}
+                                    href={link.path}
+                                    onClick={(e) => handleScrollTo(e, link.path)}
+                                    className="text-2xl font-semibold text-gray-800"
                                 >
                                     {link.name}
-                                </Link>
+                                </a>
                             ))}
                             <div className="pt-8 flex flex-col items-center space-y-4">
                                 <a href="tel:+917579171111" className="flex items-center space-x-2 text-xl font-bold text-gray-800">
                                     <Phone className="text-primary-600" />
                                     <span>+91 75791 71111</span>
                                 </a>
-                                <Link
-                                    to="/contact"
-                                    className="w-full max-w-xs py-4 rounded-full bg-gradient-primary text-white font-bold text-lg shadow-lg shadow-primary-500/30"
+                                <a
+                                    href="#contact"
+                                    onClick={(e) => handleScrollTo(e, '#contact')}
+                                    className="w-full max-w-xs py-4 rounded-full bg-gradient-primary text-white font-bold text-center text-lg shadow-lg shadow-primary-500/30 cursor-pointer"
                                 >
                                     Book a Ride
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </motion.div>

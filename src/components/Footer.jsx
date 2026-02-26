@@ -32,10 +32,10 @@ const Footer = () => {
                     <div>
                         <h4 className="text-xl font-semibold text-white mb-6">Quick Links</h4>
                         <ul className="space-y-3">
-                            <li><Link to="/" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Home</Link></li>
-                            <li><Link to="/services" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Our Services</Link></li>
-                            <li><Link to="/gallery" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Fleet Gallery</Link></li>
-                            <li><Link to="/contact" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Contact Us</Link></li>
+                            <li><a href="#" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Home</a></li>
+                            <li><a href="#services" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Our Services</a></li>
+                            <li><a href="#gallery" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Fleet & Gallery</a></li>
+                            <li><a href="#contact" className="hover:text-primary-400 transition-colors flex items-center"><span className="mr-2">›</span> Contact Us</a></li>
                         </ul>
                     </div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start">
                                 <MapPin className="text-primary-500 mr-3 mt-1 shrink-0" size={20} />
-                                <span>Near Roadways Bus Stand, Pithoragarh, Uttarakhand 262501</span>
+                                <span>KMOU bus station pithoragarh Uttarakhand 262501</span>
                             </li>
                             <li className="flex items-center">
                                 <Phone className="text-primary-500 mr-3 shrink-0" size={20} />

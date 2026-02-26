@@ -43,7 +43,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="py-20 bg-gray-50">
+        <section id="services" className="py-20 bg-gray-50">
             <div className="container mx-auto px-4">
 
                 <div className="text-center max-w-3xl mx-auto mb-16">
@@ -60,10 +60,28 @@ const ServicesSection = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.1 }}
-                        className="text-lg text-gray-600"
+                        className="text-lg text-gray-600 mb-10"
                     >
                         From daily commutes to spiritual journeys, we offer a diverse range of transportation solutions tailored just for you.
                     </motion.p>
+
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
+                        className="w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white mb-8"
+                    >
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full h-auto max-h-[500px] object-cover"
+                        >
+                            <source src="/videos/hero-video.mp4" type="video/mp4" />
+                        </video>
+                    </motion.div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
