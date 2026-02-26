@@ -44,28 +44,40 @@ const WhyChooseUs = () => {
                                 <img
                                     src="/images/fleet/vehicle-1.jpg"
                                     alt="Fleet Vehicle"
-                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    width={400}
+                                    height={300}
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500 bg-gray-200"
                                     loading="lazy"
+                                    decoding="async"
                                 />
                                 <img
                                     src="/images/fleet/vehicle-7.jpg"
                                     alt="Fleet Vehicle"
-                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    width={400}
+                                    height={300}
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500 bg-gray-200"
                                     loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <div className="grid grid-rows-2 gap-4 pt-8">
                                 <img
                                     src="/images/fleet/vehicle-4.jpg"
                                     alt="Force Traveller"
-                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    width={400}
+                                    height={300}
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500 bg-gray-200"
                                     loading="lazy"
+                                    decoding="async"
                                 />
                                 <img
                                     src="/images/fleet/vehicle-6.jpg"
                                     alt="Fleet Vehicle"
-                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500"
+                                    width={400}
+                                    height={300}
+                                    className="w-full h-32 lg:h-48 object-cover rounded-3xl shadow-lg hover:scale-105 transition-transform duration-500 bg-gray-200"
                                     loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                         </div>

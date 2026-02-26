@@ -69,8 +69,11 @@ const PopularPackages = () => {
                                 <img
                                     src={pkg.image}
                                     alt={pkg.title}
-                                    className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110"
+                                    width={800}
+                                    height={600}
+                                    className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110 bg-gray-200"
                                     loading="lazy"
+                                    decoding="async"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent"></div>
                                 <div className="absolute bottom-4 left-4 right-4">
@@ -209,8 +212,11 @@ const PopularPackages = () => {
                                                             key={idx}
                                                             src={img}
                                                             alt={`${selectedPackage.title} tour photo ${idx + 1}`}
-                                                            className="w-full h-48 sm:h-56 object-cover rounded-2xl shadow-sm hover:scale-[1.02] transition-transform duration-300"
+                                                            width={600}
+                                                            height={400}
+                                                            className="w-full h-48 sm:h-56 object-cover rounded-2xl shadow-sm hover:scale-[1.02] transition-transform duration-300 bg-gray-200"
                                                             loading="lazy"
+                                                            decoding="async"
                                                         />
                                                     ))}
                                                 </div>

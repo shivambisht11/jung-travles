@@ -71,7 +71,9 @@ const Testimonials = () => {
                                 <img
                                     src={testimonial.avatar}
                                     alt={testimonial.name}
-                                    className="w-14 h-14 rounded-full border-2 border-primary-100 mr-4"
+                                    width={56}
+                                    height={56}
+                                    className="w-14 h-14 rounded-full border-2 border-primary-100 mr-4 bg-gray-200"
                                     loading="lazy"
                                     decoding="async"
                                 />

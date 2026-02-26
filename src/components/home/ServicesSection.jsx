@@ -68,15 +68,17 @@ const ServicesSection = () => {
                     <motion.div
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, margin: "200px" }}
                         transition={{ delay: 0.2 }}
-                        className="w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white mb-8"
+                        className="w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white mb-8 bg-gray-100 min-h-[300px]"
                     >
                         <video
                             autoPlay
                             loop
                             muted
                             playsInline
+                            preload="metadata"
+                            poster="/images/fleet/vehicle-4.jpg"
                             className="w-full h-auto max-h-[500px] object-cover"
                         >
                             <source src="/videos/hero-video.mp4" type="video/mp4" />

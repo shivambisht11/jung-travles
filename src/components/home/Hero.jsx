@@ -9,10 +9,11 @@ const Hero = () => {
         <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
             {/* Background Image & Overlay */}
             <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat w-full h-full"
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat w-full h-full bg-gray-900"
                 style={{
-                    backgroundImage: 'url("https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")',
-                    backgroundPosition: 'center 30%'
+                    backgroundImage: 'url("https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80")',
+                    backgroundPosition: 'center 30%',
+                    willChange: 'transform, opacity' // Hardware acceleration
                 }}
             >
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-transparent"></div>
