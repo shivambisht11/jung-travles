@@ -168,7 +168,7 @@ export const packagesData = [
         price: "₹32,000 - ₹40,000",
         priceDetails: "Per Person (Depending on vehicle choice)",
         route: "Haridwar - Yamunotri - Gangotri - Kedarnath - Badrinath",
-        image: "/images/packages/mountain-7.jpg",
+        image: "/images/packages/char-dham.jpg",
         gallery: [],
         rating: 4.9,
         inclusions: [
